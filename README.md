@@ -172,3 +172,16 @@ octave --no-gui matlab/test_r1waw.m    # MATLAB / Octave
 julia julia/test_r1waw.jl              # Julia
 Rscript r/test_r1waw.R                 # R
 ```
+
+## Limits
+
+- Phase A needs a development population of genuine signatures.
+- On Bengali, a control without handwriting information scores higher than the model. Bengali results therefore
+  reflect dataset cues, not only signatures.
+- R1-WAW is a research prototype. It must not be the sole basis of any decision about a signature.
+
+## License
+
+Copyright © 2026 OGCZ. All rights reserved. Use is limited to non-commercial academic review and reproduction
+of the study results. Copying, redistribution, modification and re-implementation need written permission.
+See [LICENSE](LICENSE).
