@@ -103,6 +103,31 @@ signature image ─► features (HOG) ─► pairwise dissimilarity ─► R1-WA
 A questioned signature is compared with each of the writer's 12 reference signatures. The verdict comes from a
 per-writer decision line with an *uncertain* zone, so that borderline cases go to a human examiner.
 
+## Results (reference study: CEDAR and BHSig260 Bengali / Hindi)
+
+Each figure is the mean per-writer AUC for genuine signatures against skilled forgeries.
+
+| Model | Development (142 writers) | Held-back (132 writers) |
+|---|---|---|
+| Shared metric, default kernel | 0.8309 | 0.8338 |
+| Shared metric, same kernel as R1-WAW | 0.8497 | 0.8550 |
+| **R1-WAW** | **0.8581** | **0.8602** |
+
+Comparisons on the 132 held-back writers (Wilcoxon signed-rank, Holm-corrected):
+
+| Comparison | Δ AUC | 95% CI | p |
+|---|---|---|---|
+| R1-WAW vs shared metric, default kernel | +0.0264 | +0.0132 to +0.0417 | 0.003 |
+| R1-WAW vs shared metric, same kernel | +0.0052 | +0.0005 to +0.0100 | 0.051 |
+
+- On Hindi, the writer-adaptive step alone adds +0.0117 (p = 0.006).
+- The settings were chosen on the development writers. The held-back writers were scored afterwards.
+
+**Operating rule.** On the 132 held-back writers, at the standard setting:
+- 5.8% of genuine signatures are judged forged.
+- 13.3% of forgeries are judged genuine.
+- 37.6% of signatures are referred to an examiner as uncertain.
+
 ## Usage
 
 **Python** (`pip install .[verifier]`)
