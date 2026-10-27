@@ -1,7 +1,6 @@
 # R1-WAW — Rank-One Writer-Adaptive Whitening
 
 [![GitHub stars](https://img.shields.io/github/stars/og-cz/r1-waw?style=flat)](https://github.com/og-cz/r1-waw/stargazers)
-[![Total downloads across all releases](https://img.shields.io/github/downloads/og-cz/r1-waw/total)](https://github.com/og-cz/r1-waw/releases)
 [![Tests](https://github.com/og-cz/r1-waw/actions/workflows/tests.yml/badge.svg)](https://github.com/og-cz/r1-waw/actions/workflows/tests.yml)
 [![Python](https://img.shields.io/badge/python-%E2%89%A53.9-blue)](pyproject.toml)
 [![License: R1-WAW Research](https://img.shields.io/badge/license-R1--WAW%20Research-lightgrey)](LICENSE)
