@@ -1,0 +1,30 @@
+R1-WAW Research License
+Copyright (c) 2026 OGCZ. All rights reserved.
+
+R1-WAW (Rank-One Writer-Adaptive Whitening), including its method, source code in every language
+in this repository, test fixtures and documentation (the "Software"), is the work of the team OGCZ
+(the "authors").
+
+1. Permitted use. You may view, download and run the Software only to read, evaluate, review or
+   reproduce the results of the authors' study, "Offline Handwritten Signature Verification Based
+   on a Writer-Adaptive Similarity Metric" (2026), for non-commercial academic purposes.
+
+2. Not permitted without the authors' prior written permission:
+   a. commercial use of any kind, including use in a product, service or paid work;
+   b. copying, redistributing, sublicensing or publishing the Software or any part of it;
+   c. modifying the Software, or creating, publishing or distributing a derivative work,
+      including a re-implementation of the method in any language;
+   d. removing or changing this license or the copyright notice.
+
+3. Citation. Any academic work that uses, discusses or compares against the Software must cite
+   the study named in section 1.
+
+4. No warranty. The Software is provided "as is", without warranty of any kind, express or
+   implied, including warranties of merchantability, fitness for a particular purpose and
+   non-infringement. The authors are not liable for any claim, damage or other liability arising
+   from the Software or its use. The Software is a research prototype and must not be the sole
+   basis of any decision about the authenticity of a signature.
+
+5. Termination. Any use outside section 1 ends your permission under this license.
+
+Requests for permission: contact the authors.
